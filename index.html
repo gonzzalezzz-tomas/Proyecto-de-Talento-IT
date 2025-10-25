@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alice In Strings</title>
+    <link rel="shortcut icon" href="imgs/icono.jpg" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;900&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <h1>Alice In Strings</h1>
+            <p>Merch Oficial de Bandas</p>
+        </div>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#productos">Productos</a></li>
+            <li><a href="#ofertas">Ofertas</a></li>
+            <li><a href="#video">Video</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <main>
+
+        <section id="inicio">
+            <h2>Bienvenido a Alice In Strings</h2>
+            <p>La tienda de merchandising oficial de tus bandas favoritas</p>
+            <button id="alertBtn">!Ver Ofertas Especiales!</button>
+        </section>
+
+        <section id="productos">
+            <h2>Nuestros Productos</h2>
+            <p class="subtitle">Merchandising oficial</p>
+            
+            <div class="productos-flex">
+                
+                <div class="producto">
+                    <div class="producto-img"></div>
+                    <h3>Remera Deftones</h3>
+                    <p class="banda">Deftones - White Pony</p>
+                    <p class="precio">$ 35.000</p>
+                    <div class="tallas">
+                        <button class="talla">S</button>
+                        <button class="talla">M</button>
+                        <button class="talla">L</button>
+                        <button class="talla">XL</button>
+                    </div>
+                    <button class="btn-comprar">Agregar al Carrito</button>
+                </div>
+
+                <div class="producto">
+                    <div class="producto-img"></div>
+                    <h3>Hoodie Korn</h3>
+                    <p class="banda">Korn - Follow The Leader</p>
+                    <p class="precio">$ 52.000</p>
+                    <div class="tallas">
+                        <button class="talla">S</button>
+                        <button class="talla">M</button>
+                        <button class="talla">L</button>
+                        <button class="talla">XL</button>
+                    </div>
+                    <button class="btn-comprar">Agregar al Carrito</button>
+                </div>
+
+                <div class="producto">
+                    <div class="producto-img"></div>
+                    <h3>Vinilo Linkin Park</h3>
+                    <p class="banda">Linkin Park - Hybrid Theory</p>
+                    <p class="precio">$ 60.000</p>
+                    <div class="tallas">
+                        <button class="talla">LP</button>
+                    </div>
+                    <button class="btn-comprar">Agregar al Carrito</button>
+                </div>
+
+                <div class="producto">
+                    <div class="producto-img"></div>
+                    <h3>Poster Alice In Chains</h3>
+                    <p class="banda">Alice In Chains - Dirt</p>
+                    <p class="precio">$ 8.000</p>
+                    <div class="tallas">
+                        <button class="talla">40x60</button>
+                        <button class="talla">60x90</button>
+                    </div>
+                    <button class="btn-comprar">Agregar al Carrito</button>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="ofertas">
+            <h2>Ofertas Especiales</h2>
+            <p class="subtitle">Descuentos exclusivos</p>
+            
+            <div class="ofertas-grid">
+                
+                <div class="oferta">
+                    <h3>20% off</h3>
+                    <p>Primera Compra</p>
+                    <span class="codigo">ALICE20</span>
+                </div>
+
+                <div class="oferta">
+                    <h3>2x1</h3>
+                    <p>Remeras Seleccionadas</p>
+                    <span class="codigo">BROS2X1</span>
+                </div>
+
+                <div class="oferta">
+                    <h3>ENVÍO GRATIS</h3>
+                    <p>Compras +$50.000</p>
+                    <span class="codigo">ENVIOFREE</span>
+                </div>
+
+                <div class="oferta">
+                    <h3>15% OFF</h3>
+                    <p>Buzos</p>
+                    <span class="codigo">BUZO15</span>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="video">
+            <h2>Recorda a tus bandas favoritas</h2>
+            <p class="subtitle">y seguí comprando en tu pagina favorita</p>
+            <iframe 
+                width="100%" 
+                height="400" 
+                src="https://www.youtube.com/watch?v=eBG7P-K-r1Y&list=RDeBG7P-K-r1Y&start_radio=1" 
+                title="Foo Fighters - Everlong (Official HD Video)"
+                frameborder="0" 
+                allowfullscreen>
+            </iframe>
+        </section>
+
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <p class="subtitle">Tenes alguna pregunta? Escribinos</p>
+            
+            <form action="https://formspree.io/f/xyzxyzxyz" method="POST">
+                
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required placeholder="Tu nombre">
+
+                <label for="correo">Correo:</label>
+                <input type="email" id="correo" name="correo" required placeholder="tu@email.com">
+
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" required placeholder="Escribe tu mensaje aquí..."></textarea>
+
+                <button type="submit">Enviar Mensaje</button>
+                
+            </form>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>© 2025 Alice In Strings - Todos los derechos reservados</p>
+        <p>Creado por González Tomás</p>
+    </footer>
+
+    <script src="js/main.js"></script>
+
+</body>
+</html>

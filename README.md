@@ -1,0 +1,4 @@
+Tienda de Merchandising de Bandas
+
+Este proyecto es una página web hecha con HTML, CSS y JavaScript. La idea fue crear una tienda online para vender merchandising de distintas bandas, como remeras, buzos, posters y otros productos relacionados con la música. El objetivo principal del proyecto fue practicar lo que aprendí en el curso de desarrollo con HTML de Talento Tech, sobre desarrollo web, especialmente cómo estructurar una página con HTML, darle estilo con CSS y agregarle funciones con JavaScript, como el manejo del carrito de compras y la interacción con los productos.
+Todavía tengo pensado seguir mejorando la página, agregando más funciones y detalles para que sea más completa.
